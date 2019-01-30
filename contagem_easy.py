@@ -14,3 +14,6 @@ for x in lista:
         dicionario[x] += 1
 
 print(dicionario.items())
+
+for chave, valor in dicionario.items():
+    print(valor)
